@@ -7,7 +7,7 @@ MAINTAINER GoudronViande24, <thomas@artivain.com>
 
 RUN apk add --no-cache bash curl
 ENV HOST 0.0.0.0
-ENV STATPING_DIR /home/container/
+ENV STATPING_DIR /home/container
 
 RUN adduser --disabled-password --home /home/container container
 
